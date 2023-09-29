@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:Montserrat;}
+
+.titulo{
+    background-color: black;
+    text-align: center;
+}
+
+.logodinner{
+    width: 30%;   
+}
+
+
+/* HEADER */
+
+
+header nav ul li { 
+display: inline-block;
+margin: 10px 10px 10px 10px;
+text-decoration: none;}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+/* Imagenes */
+.logoresto{
+    width: 20%;
+    height: 20%;
+}
+.imagen{
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+}
+
+.section2{
+    display:flex;
+    overflow: hidden;
+    }
+.celebrando {
+    width: 50%;
+    height: 70%;
+}
+.section2 img{
+    border: khaki 10px solid;
+}
+
+.imagen2{
+    width: 50%;
+    height: 25%;} 
+.imagen3 {
+    width: 50%;
+    height: 25%;
+}
+
+/* MAIN */
+.nuestrosplatos{
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+
+}
+.platos{
+    background-color:goldenrod;
+
+}
+.platos div img:hover{
+    background-color: blueviolet;
+}
+
+.titulocomida{
+    text-align: center;
+    background-color: lemonchiffon;
+    color:black;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;}
+    
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.happy{
+    text-align: center;
+    background-color: black;
+}
+.happy h2 {
+    font-size: 40px;
+    color: white;}
+.happy p{
+    color:white;
+}
+
+/* FOOTER */
+footer{
+color: white;
+background-color: black;
+display:flex;
+align-items: center;}
+
+/* QUIENES SOMOS*/
+.quienes{
+    text-align: center;
+}
+
+/*NUESTROS LOCALES */
+.nuestros{
+    overflow: hidden;
+    text-align: center;}
+.local1{
+    overflow:hidden;
+    width: 50%;
+    height: 50%;
+}
+.local2{
+    overflow:hidden;
+    width: 50%;
+    height: 50%;
+}
+
+/*RESERVA */
+.reserva{
+    text-align: center;
+}
+
+/*CONTACTO */
+.contacto{
+text-align: center;
+}
+
+.formulario{
+    text-align: center;
+    border: solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color:khaki;
+}
+
+/*REDES*/
+.redes{
+    text-align: center;
+    margin:20px;
+    padding: 5px;
+}
